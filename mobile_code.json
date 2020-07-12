@@ -1,10 +1,42 @@
 {
-"45201":"MobiFone",
-"45202":"Vinaphone",
-"45203":"S-Fone",
-"45204":"Viettel Mobile",
-"45205":"Vietnamobile",
-"45206":"Viettel",
-"45207":"Gmobile",
-"45208":"I-Telecom"
+"45201":{"name":"MobiFone","apn":{
+    "apn":"m-wap",
+    "user":"mms",
+    "pass":"mms"
+}},
+"45202":{"name":"Vinaphone","apn":{
+    "apn":"m3-world",
+    "user":"mms",
+    "pass":"mms"
+}},
+"45203":{"name":"S-Fone","apn":{
+    "apn":"",
+    "user":"",
+    "pass":""
+}},
+"45204":{"name":"Viettel Mobile","apn":{
+    "apn":"v-internet",
+    "user":"0",
+    "pass":"0"
+}},
+"45205":{"name":"Vietnamobile","apn":{
+    "apn":"internet",
+    "user":"0",
+    "pass":"0"
+}},
+"45206":{"name":"Viettel","apn":{
+    "apn":"v-internet",
+    "user":"0",
+    "pass":"0"
+}},
+"45207":{"name":"Gmobile","apn":{
+    "apn":"internet",
+    "user":"0",
+    "pass":"0"
+}},
+"45208":{"name":"I-Telecom","apn":{
+    "apn":"e-internet",
+    "user":"0",
+    "pass":"0"
+}}
 }
