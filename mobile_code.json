@@ -1,42 +1,32 @@
 {
-"45201":{"name":"MobiFone","apn":{
-    "apn":"m-wap",
-    "user":"mms",
-    "pass":"mms"
-}},
-"45202":{"name":"Vinaphone","apn":{
-    "apn":"m3-world",
-    "user":"mms",
-    "pass":"mms"
-}},
-"45203":{"name":"S-Fone","apn":{
-    "apn":"",
-    "user":"",
-    "pass":""
-}},
-"45204":{"name":"Viettel","apn":{
-    "apn":"v-internet",
-    "user":"0",
-    "pass":"0"
-}},
-"45205":{"name":"Vietnamobile","apn":{
-    "apn":"internet",
-    "user":"0",
-    "pass":"0"
-}},
-"45206":{"name":"Viettel","apn":{
-    "apn":"v-internet",
-    "user":"0",
-    "pass":"0"
-}},
-"45207":{"name":"Gmobile","apn":{
-    "apn":"internet",
-    "user":"0",
-    "pass":"0"
-}},
-"45208":{"name":"I-Telecom","apn":{
-    "apn":"e-internet",
-    "user":"0",
-    "pass":"0"
-}}
+    "45201": {
+        "name": "MobiFone",
+        "apn": "m-wap|mms|mms,internet||",
+        "ussd_get_number": "*0#"
+    },
+    "45202": {
+        "name": "Vinaphone",
+        "apn": "m3-world|mms|mms,internet||",
+        "ussd_get_number": "*111#"
+    },
+    "45204": {
+        "name": "Viettel",
+        "apn": "e-connect||,v-internet||,internet||",
+        "ussd_get_number": "*101#"
+    },
+    "45205": {
+        "name": "Vietnamobile",
+        "apn": "e-connect||,v-internet||,internet||",
+        "ussd_get_number": "*101#"
+    },
+    "45206": {
+        "name": "Viettel",
+        "apn": "e-connect||,v-internet||,internet||",
+        "ussd_get_number": "*101#"
+    },
+    "45208": {
+        "name": "I-Telecom",
+        "apn": "m9-itelecom||,m3-world|mms|mms,m-wap|mms|mms,e-connect||",
+        "ussd_get_number": "*101#"
+    }
 }
